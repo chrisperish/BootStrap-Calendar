@@ -1,0 +1,47 @@
+.col-xs-7ths,
+.col-sm-7ths,
+.col-md-7ths,
+.col-lg-7ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+.col-xs-7ths {
+    width: 14.28%;
+    min-height: 100px;
+    height: 10vh;
+    float: left;
+}
+.calcell-number{
+	
+}
+.calcell-header{
+	min-height: 25px;
+	height:25px;
+}
+.highlighted-yellow{
+	background-color: #FFF0B2;
+}
+@media (min-width: 768px) {
+    .col-sm-7ths {
+        width: 14.28%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-7ths {
+        width: 14.28%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-7ths {
+        width: 14.28%;
+        float: left;
+    }
+}
